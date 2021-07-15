@@ -4528,7 +4528,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5556079077757476131}
         m_TargetAssemblyTypeName: SceneNavigator, Assembly-CSharp
-        m_MethodName: LoadScene
+        m_MethodName: LoadTargetScene
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4981,6 +4981,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 453091816ffad6945ac29bbdae61a7be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  num1Input: {fileID: 710071524}
+  num2Input: {fileID: 5556079077540042008}
+  operatorSelect: {fileID: 514616393}
+  num1BaseSelect: {fileID: 1591957880}
+  num2BaseSelect: {fileID: 5556079076312723558}
+  outputText: {fileID: 5556079077562449761}
 --- !u!224 &5556079078003720284
 RectTransform:
   m_ObjectHideFlags: 0
